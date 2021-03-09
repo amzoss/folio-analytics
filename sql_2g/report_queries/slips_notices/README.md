@@ -15,7 +15,11 @@ If unaggregated, the report could also include recipient information. The report
 The data in mod-email id limited because it's only the log from the SMTP server. It does not capture errors on the FOLIO processing
 side of notices. Currently, location is not available. Status is either delivered or failure.
 
-Note: the LDP does not currently ingest mod-email. Can start with what's available in circulation.
+Notes: 
+
+- the LDP does not currently ingest mod-email. Can start with what's available in circulation
+- templates do seem to be stored in mod-template-engine
+- look in folio\_audit.circulation\_logs for records of notices that have been send (e.g., a "Send" action with object "Notice")
 
 See also: 
 
